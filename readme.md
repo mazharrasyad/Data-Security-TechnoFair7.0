@@ -1,7 +1,7 @@
 # Rangkuman
 
 - Data security -> crypthography
-- Classical cryptography (penggeseran karakter)
+- Classical cryptography (penggeseran karakter) / simetric cryptohrapy
     - caesar cipher (Menambah atau mengurangi string)
         - encrypt
         - decrypt

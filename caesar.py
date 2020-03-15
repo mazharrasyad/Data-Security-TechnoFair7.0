@@ -34,8 +34,10 @@ def caesar_decrypt(data, key):
 def main():
     enc = caesar_encrypt("RAVIDHARMAWAN", 17)
     print(enc)
-    dec = caesar_decrypt(enc, 17)
-    print(dec)
+    # dec = caesar_decrypt(enc, 17)
+    # print(dec)
+    for x in range(26):
+        print(caesar_decrypt(enc, x))
 
 if __name__ == "__main__":
     main()
